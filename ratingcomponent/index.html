@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  
+
+  <title>Rating Component</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="rating-container">
+      <div class="rating-icon">
+        <object data="./images/icon-star.svg" title="Rating Star Icon" type="image/svg+xml"></object>
+      </div>
+      <h1>How did we do?</h1>
+      <section class="submission-error">
+      <p>Please select a rating</p>
+      </section>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <section class="rating-button-container">
+        <button class="rating-option">1</button>
+        <button class="rating-option">2</button>
+        <button class="rating-option">3</button>
+        <button class="rating-option">4</button>
+        <button class="rating-option">5</button>
+      </section>
+      <section class="rating-submit-container">
+        <button class="rating-submit-btn">SUBMIT</button>
+      </section>
+    </div>
+    <section class="rating-success-container hidden">
+      <div class="rating-icon-success">
+        <object data="./images/illustration-thank-you.svg" title="Rating Success Icon" type="image/svg+xml"></object>
+      </div>
+      <h2>You selected <span id="selected-rating">0</span> out of 5</h2>
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+    </section>
+  </main>
+
+  <script src="js/rating.js"></script>
+  
+</body>
+</html>
