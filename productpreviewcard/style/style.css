@@ -106,6 +106,13 @@ body {
     margin-top: 30px;
 }
 
+.product-cta button:hover,
+.product-cta button:focus {
+    cursor: pointer;
+    background-color: hsl(158, 36%, 17%);
+    transition-duration: 600ms;
+}
+
 .product-cta object {
     vertical-align: middle;
 }
@@ -117,6 +124,7 @@ body {
     margin-left: 10px;
     vertical-align: middle;
 }
+
 
 /* Hide Mobile Product Image by Default */
 
