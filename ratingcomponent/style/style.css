@@ -12,7 +12,7 @@ body {
 }
 
 .rating-container {
-    background-color: hsl(213, 19%, 18%);
+    background: linear-gradient(to top, hsl(213, 19%, 12%), hsl(213, 19%, 20%));
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -33,6 +33,7 @@ body {
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
+    margin: 1rem 0 1rem 0;
     
 }
 
@@ -100,7 +101,7 @@ p {
 
 
 .rating-success-container {
-    background-color: hsl(213, 19%, 18%);
+    background: linear-gradient(to top, hsl(213, 19%, 12%), hsl(213, 19%, 20%));
     display: flex;
     flex-direction: column;
     align-items: center;
