@@ -5,10 +5,6 @@ let selectedOption = null;
 ratingOptions.forEach(option => {
     option.addEventListener('click', function () {
         selectedOption = option.innerHTML;
-        // Remove Submission Error, if exists
-        if (document.querySelector('.submission-error').style.display = "flex") {
-            document.querySelector('.submission-error').style.display = "none";
-        }
     });
 });
 
